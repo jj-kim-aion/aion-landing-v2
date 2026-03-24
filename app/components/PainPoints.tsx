@@ -43,11 +43,11 @@ export default function PainPoints() {
           {painPoints.map((point, index) => (
             <div
               key={index}
-              className="bg-soft-white p-8 md:p-12 hover:bg-white transition-colors duration-200"
+              className="bg-soft-white p-8 md:p-12 hover:bg-white transition-all duration-200 border-l-4 border-near-black/0 hover:border-l-near-black"
             >
               <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-6">
                 <div className="flex-1 space-y-4">
-                  <h3 className="text-2xl md:text-3xl font-semibold tracking-tight">
+                  <h3 className="text-2xl md:text-3xl font-semibold tracking-tight text-near-black">
                     {point.title}
                   </h3>
                   <p className="text-lg text-gray-600 leading-relaxed max-w-3xl">
@@ -55,7 +55,7 @@ export default function PainPoints() {
                   </p>
                 </div>
                 <div className="md:text-right">
-                  <div className="metric text-3xl md:text-4xl font-bold text-near-black/40">
+                  <div className="metric text-3xl md:text-4xl font-bold text-near-black">
                     {point.impact}
                   </div>
                 </div>
