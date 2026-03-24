@@ -1,20 +1,20 @@
 const testimonials = [
   {
-    quote: 'We've worked with three AI consultants before Aion. The difference? Aion actually delivered. On time, on budget, with measurable results. No more PowerPoint strategy—just working systems.',
+    quote: 'We\'ve worked with three AI consultants before Aion. The difference? Aion actually delivered. On time, on budget, with measurable results. No more PowerPoint strategy—just working systems.',
     author: 'Marcus Wei',
     role: 'COO',
     company: 'Global Manufacturing Corp',
     metric: '23.7% cost reduction',
   },
   {
-    quote: 'The contract guarantee was what sold us. If they don't hit KPIs, they keep working at no extra cost. That's unheard of in consulting. And they hit every milestone.',
+    quote: 'The contract guarantee was what sold us. If they don\'t hit KPIs, they keep working at no extra cost. That\'s unheard of in consulting. And they hit every milestone.',
     author: 'Jennifer Patel',
     role: 'VP Operations',
     company: 'Regional Financial Services',
     metric: '41.2% faster processing',
   },
   {
-    quote: 'Most vendors promise the moon and deliver a pilot that never scales. Aion deployed our route optimization system in 89 days. It's in production, it's saving money, and our planners love it.',
+    quote: 'Most vendors promise the moon and deliver a pilot that never scales. Aion deployed our route optimization system in 89 days. It\'s in production, it\'s saving money, and our planners love it.',
     author: 'David Kowalski',
     role: 'Chief Digital Officer',
     company: 'International Logistics Provider',
