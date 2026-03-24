@@ -58,14 +58,14 @@ export default function HowItWorks() {
             >
               {/* Left: Number and duration */}
               <div className="md:col-span-3 space-y-4">
-                <div className="metric text-7xl md:text-8xl lg:text-9xl font-bold text-near-black/10">
+                <div className="metric text-7xl md:text-8xl lg:text-9xl font-bold text-gray-400">
                   {step.number}
                 </div>
                 <div>
-                  <h3 className="text-3xl md:text-4xl font-bold mb-2">
+                  <h3 className="text-3xl md:text-4xl font-bold mb-2 text-near-black">
                     {step.title}
                   </h3>
-                  <div className="metric text-lg text-gray-500">
+                  <div className="metric text-lg text-gray-600 font-medium">
                     {step.duration}
                   </div>
                 </div>
@@ -99,7 +99,7 @@ export default function HowItWorks() {
         <div className="mt-24 pt-16 border-t border-gray-200">
           <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-8">
             <div>
-              <div className="metric text-7xl md:text-8xl font-bold mb-4">
+              <div className="metric text-7xl md:text-8xl font-bold mb-4 text-near-black">
                 10-14 weeks
               </div>
               <p className="text-xl text-gray-600 max-w-2xl">

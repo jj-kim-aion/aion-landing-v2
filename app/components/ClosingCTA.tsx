@@ -30,15 +30,15 @@ export default function ClosingCTA() {
           {/* Key points */}
           <div className="pt-16 grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
             <div className="space-y-3">
-              <div className="text-4xl font-bold metric">10-14 weeks</div>
+              <div className="text-4xl font-bold metric text-white">10-14 weeks</div>
               <div className="text-gray-400">Discovery to production deployment</div>
             </div>
             <div className="space-y-3">
-              <div className="text-4xl font-bold metric">Fixed scope</div>
+              <div className="text-4xl font-bold metric text-white">Fixed scope</div>
               <div className="text-gray-400">No surprise fees or scope creep</div>
             </div>
             <div className="space-y-3">
-              <div className="text-4xl font-bold metric">KPI guarantee</div>
+              <div className="text-4xl font-bold metric text-white">KPI guarantee</div>
               <div className="text-gray-400">We iterate until targets are met</div>
             </div>
           </div>

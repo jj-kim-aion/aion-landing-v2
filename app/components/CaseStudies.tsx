@@ -85,7 +85,7 @@ export default function CaseStudies() {
                     <div className="text-sm uppercase tracking-wider text-gray-500 mb-2">
                       Timeline
                     </div>
-                    <div className="metric text-3xl font-bold">
+                    <div className="metric text-3xl font-bold text-near-black">
                       {study.timeline}
                     </div>
                   </div>
@@ -115,7 +115,7 @@ export default function CaseStudies() {
 
                   {/* Outcome */}
                   <div className="bg-near-black text-white p-8">
-                    <div className="metric text-4xl md:text-5xl font-bold mb-6">
+                    <div className="metric text-4xl md:text-5xl font-bold mb-6 text-white">
                       {study.outcome}
                     </div>
                     <ul className="space-y-2">

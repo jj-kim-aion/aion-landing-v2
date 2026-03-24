@@ -73,7 +73,7 @@ export default function SocialProof() {
                     </div>
                   </div>
 
-                  <div className="metric text-2xl font-bold text-near-black/60">
+                  <div className="metric text-2xl font-bold text-near-black">
                     {testimonial.metric}
                   </div>
                 </footer>
@@ -86,19 +86,19 @@ export default function SocialProof() {
         <div className="mt-24 pt-16 border-t border-gray-200">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="metric text-5xl font-bold mb-2">100%</div>
+              <div className="metric text-5xl font-bold mb-2 text-near-black">100%</div>
               <div className="text-sm uppercase tracking-wider text-gray-600">On-Time Delivery</div>
             </div>
             <div>
-              <div className="metric text-5xl font-bold mb-2">$1B+</div>
+              <div className="metric text-5xl font-bold mb-2 text-near-black">$1B+</div>
               <div className="text-sm uppercase tracking-wider text-gray-600">Client Revenue</div>
             </div>
             <div>
-              <div className="metric text-5xl font-bold mb-2">67 days</div>
+              <div className="metric text-5xl font-bold mb-2 text-near-black">67 days</div>
               <div className="text-sm uppercase tracking-wider text-gray-600">Avg. Deployment</div>
             </div>
             <div>
-              <div className="metric text-5xl font-bold mb-2">32.1%</div>
+              <div className="metric text-5xl font-bold mb-2 text-near-black">32.1%</div>
               <div className="text-sm uppercase tracking-wider text-gray-600">Avg. Cost Reduction</div>
             </div>
           </div>
